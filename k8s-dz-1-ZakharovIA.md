@@ -136,6 +136,16 @@ ConfigMap с конфигом nginx
 Deployment, который бы подключал этот ConfigMap
 Service для доступа
 Ingress, который будет направлять запросы по префиксу /test на наш сервис
+[nginx-config.yaml](doc/k8sdz1/nginx-config.yaml)
+[nginx-ingress.yaml](doc/k8sdz1/nginx-ingress.yaml)
+[nginx-service.yaml](doc/k8sdz1/nginx-service.yaml)
+[nginx-deployment.yaml](doc/k8sdz1/nginx-deployment.yaml)
+При запросе:
+
+http://<ingress-host>/test
+
+Hello from k8s
+
 Инструкция к выполнению / Как выполнять задание:
 1. Запуск кластера:
 
