@@ -22,16 +22,18 @@
 Утилита командной строки kubectl.
 Описание заданий
 Задание 1
-<img width="1194" height="621" alt="image" src="https://github.com/user-attachments/assets/61aaf14d-e974-4e24-bf62-77da2f577c61" />
+
 
 Выполните действия:
 
 Запустите Kubernetes локально, используя k3s или minikube на свой выбор
 Добейтесь стабильной работы всех системных контейнеров
 В качестве ответа пришлите скриншот результата выполнения команды kubectl get po -n kube-system
-
+<img width="1194" height="621" alt="image" src="https://github.com/user-attachments/assets/61aaf14d-e974-4e24-bf62-77da2f577c61" />
 Задание 2
-
+[Документация](doc/task2.yaml)
+[Исходный код](src/main.py)
+[Лицензия](LICENSE)
 Дан файл с деплоем:
 
 1
