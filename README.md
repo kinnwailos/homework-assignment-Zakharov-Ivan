@@ -97,6 +97,25 @@ Redis должен запускаться без пароля
 Просмотра логов контейнера за последние 5 минут.
 Удаления контейнера.
 Проброса порта локальной машины в контейнер для отладки.
+
+Предположим, pod называется redis-5f4c6d7b9c-abcde.
+
+1️ Выполнить ps aux внутри контейнера
+kubectl exec -it redis-5f4c6d7b9c-abcde -- ps aux
+
+2️ Посмотреть логи за последние 5 минут
+kubectl logs redis-5f4c6d7b9c-abcde --since=5m
+
+3️ Удалить контейнер (pod)
+kubectl delete pod redis-5f4c6d7b9c-abcde
+
+
+Deployment автоматически создаст новый pod.
+
+4️ Проброс порта для отладки
+kubectl port-forward redis-5f4c6d7b9c-abcde 6379:6379
+После этого Redis будет доступен локально на localhost:6379.
+
 Задание 4
 
 Есть конфигурация nginx:
