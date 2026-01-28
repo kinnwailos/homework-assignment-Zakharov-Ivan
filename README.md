@@ -22,7 +22,7 @@
 Утилита командной строки kubectl.
 Описание заданий
 Задание 1
-<img width="1201" height="581" alt="{1F4B9E91-4140-4A36-A2F2-3CF41365BAA8}" src="https://github.com/user-attachments/assets/31c3784f-dd0b-48bc-813c-b0e72462b863" />
+<img width="1194" height="621" alt="image" src="https://github.com/user-attachments/assets/61aaf14d-e974-4e24-bf62-77da2f577c61" />
 
 Выполните действия:
 
