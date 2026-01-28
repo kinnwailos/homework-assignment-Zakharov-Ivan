@@ -145,7 +145,11 @@ Ingress, который будет направлять запросы по пр
 
 При запросе:
 
-http://<ingress-host>/test
+[http://<ingress-host>/test](http://<ingress-host>/test
+)
+
+
+ответ будет:
 
 Hello from k8s
 
