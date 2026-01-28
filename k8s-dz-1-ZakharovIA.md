@@ -139,9 +139,13 @@ Service для доступа
 Ingress, который будет направлять запросы по префиксу /test на наш сервис
 
 [nginx-config.yaml](doc/k8sdz1/nginx-config.yaml)
+
 [nginx-ingress.yaml](doc/k8sdz1/nginx-ingress.yaml)
+
 [nginx-service.yaml](doc/k8sdz1/nginx-service.yaml)
+
 [nginx-deployment.yaml](doc/k8sdz1/nginx-deployment.yaml)
+
 
 При запросе:
 
