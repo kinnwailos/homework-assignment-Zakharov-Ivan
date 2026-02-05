@@ -1,1 +1,15 @@
 
+PLAY [Configure dynamic MOTD with system information] **************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Gather facts about the system] *******************************************
+ok: [localhost]
+
+TASK [Set dynamic MOTD with hostname and IP address] ***************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
