@@ -3,14 +3,22 @@
 
 `Выполните действия, приложите файлы с плейбуками и вывод выполнения.`
 
+файлы с плейбуками
 
-```
-Поле для вставки кода...
 [kafka_download.yml](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/playbooks/kafka_download.yml)
+
+[tuned_setup.yml](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/playbooks/tuned_setup.yml)
+
 [motd_setup.yml](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/playbooks/motd_setup.yml)
-....
-....
-```
+
+``
+[kafka.txt](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/output/kafka.txt)
+
+[motd.txt](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/output/motd.txt)
+
+[tuned.txt](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/output/tuned.txt)
+
+``
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
@@ -22,6 +30,8 @@
 
 `Приведите ответ в свободной форме........`
 
+[motd_dynamic.yml](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/playbooks/motd_dynamic.yml)
+[motd_dynamic.j2](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/templates/motd_dynamic.j2)
 1. `Заполните здесь этапы выполнения, если требуется ....`
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
