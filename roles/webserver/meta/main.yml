@@ -1,0 +1,5 @@
+galaxy_info:
+  author: Student
+  description: Apache web server with system information page
+  license: MIT
+  min_ansible_version: 2.9
