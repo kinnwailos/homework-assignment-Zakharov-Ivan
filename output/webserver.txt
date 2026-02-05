@@ -1,0 +1,27 @@
+
+PLAY [Deploy Apache with system info (direct tasks, no role)] ******************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Install Apache] **********************************************************
+ok: [localhost]
+
+TASK [Create index.html with system info] **************************************
+changed: [localhost]
+
+TASK [Restart Apache to apply changes] *****************************************
+changed: [localhost]
+
+TASK [Wait for Apache to respond] **********************************************
+ok: [localhost]
+
+TASK [Verify website availability] *********************************************
+ok: [localhost]
+
+TASK [Show success message] ****************************************************
+ok: [localhost] => 
+  msg: '✅ Веб-сайт доступен по адресу: http://localhost'
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=7    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
