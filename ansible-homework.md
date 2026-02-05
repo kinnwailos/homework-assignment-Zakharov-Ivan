@@ -57,19 +57,14 @@
 ---
 
 
-### Задание 3
 
+## Задание 3
 
-`Приведите ответ в свободной форме........`
-
-## Задание 3: Роль для Apache
-
-✅ Выполнено успешно  
-📁 Плейбук: [`playbooks/deploy_webserver.yml`](playbooks/deploy_webserver.yml)  
-📁 Структура роли: [`roles/webserver/`](roles/webserver/)  
-📄 Вывод: [`output/webserver.txt`](output/webserver.txt)  
-📸 Веб-страница: ![](screenshots/04_webpage.png)  
-📸 Проверка curl: ![](screenshots/05_curl_check.png)
+Плейбук: [`playbooks/deploy_webserver.yml`](playbooks/deploy_webserver.yml)  
+Структура роли: [`roles/webserver/`](roles/webserver/)  
+Вывод: [`output/webserver.txt`](output/webserver.txt)  
+Веб-страница: ![](screenshots/04_webpage.png)  
+Проверка curl: ![](screenshots/05_curl_check.png)
 
 ### Проверка доступности сайта
 ```bash
