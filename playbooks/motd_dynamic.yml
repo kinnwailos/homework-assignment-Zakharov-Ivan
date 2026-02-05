@@ -1,0 +1,14 @@
+---
+- name: Configure dynamic MOTD with system information
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Gather facts about the system
+      setup:
+
+    - name: Set dynamic MOTD with hostname and IP address
+      template:
+        src: ../templates/motd_dynamic.j2
+        dest: /etc/motd
+        mode: '0644'
