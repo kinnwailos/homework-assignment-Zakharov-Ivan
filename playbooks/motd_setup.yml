@@ -1,0 +1,15 @@
+---
+- name: Configure custom MOTD message with variable
+  hosts: all
+  become: yes
+  vars:
+    custom_greeting: "Добро пожаловать на учебный сервер Ansible! Система работает штатно."
+
+  tasks:
+    - name: Set custom MOTD message from variable
+      copy:
+        content: |
+          {{ custom_greeting }}
+          
+        dest: /etc/motd
+        mode: '0644'
