@@ -22,6 +22,10 @@
 
 ``
 
+скриншоты 
+
+<img width="1274" height="579" alt="{9ADBC020-03C7-4167-B2B4-FA04ADC501CD}" src="https://github.com/user-attachments/assets/070a4496-04f6-4efc-929b-a062678557e9" />
+
 
 <img width="809" height="573" alt="{513F4611-5663-4F0D-8140-0B7C4BEBA26A}" src="https://github.com/user-attachments/assets/c9f5b92d-ea03-4f6e-bb7d-35bfaea3b2fa" />
 
