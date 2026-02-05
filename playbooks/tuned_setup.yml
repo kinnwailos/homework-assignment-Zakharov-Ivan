@@ -1,0 +1,25 @@
+---
+- name: Install and configure tuned daemon
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install tuned package (Debian/Ubuntu)
+      apt:
+        name: tuned
+        state: present
+        update_cache: no
+      when: ansible_os_family == "Debian"
+
+    - name: Install tuned package (RHEL/CentOS)
+      dnf:
+        name: tuned
+        state: present
+      when: ansible_os_family == "RedHat"
+
+    - name: Enable and start tuned service
+      systemd:
+        name: tuned
+        state: started
+        enabled: yes
+        daemon_reload: yes
