@@ -31,7 +31,12 @@
 `Приведите ответ в свободной форме........`
 
 [motd_dynamic.yml](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/playbooks/motd_dynamic.yml)
-[motd_dynamic.j2](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/templates/motd_dynamic.j2)
+[motd_dynamic.j2](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/templates/motd_dynamic.j2
+
+
+
+[motd_dynamic.txt](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/output/motd_dynamic.txt)
+
 1. `Заполните здесь этапы выполнения, если требуется ....`
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
