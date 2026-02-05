@@ -1,0 +1,17 @@
+
+PLAY [Install and configure tuned daemon] **************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Install tuned package (Debian/Ubuntu)] ***********************************
+changed: [localhost]
+
+TASK [Install tuned package (RHEL/CentOS)] *************************************
+skipping: [localhost]
+
+TASK [Enable and start tuned service] ******************************************
+ok: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
