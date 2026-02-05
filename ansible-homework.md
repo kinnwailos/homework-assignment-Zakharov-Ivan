@@ -53,7 +53,7 @@
 [motd_dynamic.txt](https://raw.githubusercontent.com/kinnwailos/homework-assignment-Zakharov-Ivan/refs/heads/main/output/motd_dynamic.txt)
 
 
-
+скриншот
 
 <img width="1274" height="579" alt="{9ADBC020-03C7-4167-B2B4-FA04ADC501CD}" src="https://github.com/user-attachments/assets/c37521b9-2d8f-47d1-8a30-b4d67cbf1e28" />
 
@@ -67,8 +67,10 @@
 Плейбук: [`playbooks/deploy_webserver.yml`](playbooks/deploy_webserver.yml)  
 Структура роли: [`roles/webserver/`](roles/webserver/)  
 Вывод: [`output/webserver.txt`](output/webserver.txt)  
-Веб-страница: ![](screenshots/04_webpage.png)  
-Проверка curl: ![](screenshots/05_curl_check.png)
+Веб-страница и Проверка curl
+
+<img width="1836" height="808" alt="{F75FDBE9-6250-45B6-AC88-2D3DCBB450EA}" src="https://github.com/user-attachments/assets/0876eb80-3b43-4c59-a070-83f54150843a" />
+
 
 ### Проверка доступности сайта
 ```bash
@@ -76,15 +78,6 @@ $ curl -I http://localhost
 HTTP/1.1 200 OK
 Server: Apache/2.4.58 (Ubuntu)
 ```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
 
 
 
