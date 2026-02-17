@@ -1,3 +1,5 @@
+https://github.com/kinnwailos/homework-assignment-Zakharov-Ivan/blob/main/solution.md
+
 # Отчет по выполнению заданий Git
 
 ## Задание 2: Настройка .gitignore
