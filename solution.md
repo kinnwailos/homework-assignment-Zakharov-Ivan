@@ -1,9 +1,9 @@
+
+выполнению заданий Git
 задача1
 https://github.com/kinnwailos/homework-assignment-Zakharov-Ivan/blob/main/solution.md
 
-# Отчет по выполнению заданий Git
-
-## Задание 2: Настройка .gitignore
+Задание 2: Настройка .gitignore
 
 В данном задании был создан файл `.gitignore`, настроены правила игнорирования для файлов компиляции Python и директории кэша.
 
